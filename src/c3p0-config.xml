@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+	<default-config>
+		<property name="jdbcUrl">jdbc:mysql://120.79.86.1:3306/mybatis</property>
+		<property name="driverClass">com.mysql.jdbc.Driver</property>
+		<property name="user">root</property>
+		<property name="password">LiuQuanhong@1997</property>
+	</default-config>
+	<named-config name="oracle-config">
+		<property name="jdbcUrl">jdbc:mysql://120.79.86.1:3306/mybatis</property>
+		<property name="driverClass">com.mysql.jdbc.Driver</property>
+		<property name="user">root</property>
+		<property name="password">LiuQuanhong@1997</property>
+	</named-config>
+</c3p0-config>
